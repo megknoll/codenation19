@@ -1,0 +1,86 @@
+/*** SECRET CODE ***/
+.box {
+    width: 30px;
+    height: 30px;
+    background: blue;
+    margin: 1px;
+}
+
+.green{
+    background: green;
+}
+
+h1, p {
+    font-family: Calibri;
+}
+
+h3 {
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+#exercise-table {
+    display: flex;
+    padding-top: 25px;
+}
+
+#exercise-table > .col {
+    flex-grow: 1;
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.exercise {
+   margin: 40px 10px;
+}
+
+.answer-one {
+    display: flex;
+    justify-content: center;
+}
+
+.answer-two {
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid red;
+}
+
+.answer-three {
+    display: flex;
+    justify-content: flex-end;
+    background: green;
+    padding: 20px;
+}
+
+.answer-four {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.answer-five {
+    display: flex;
+    justify-content: flex-start;
+    border: pink double 5px;
+}
+
+.answer-six {
+    display: flex;
+    justify-content: center;
+    background: yellow;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.answer-seven {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.answer-eight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
