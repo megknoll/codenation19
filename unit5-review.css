@@ -19,12 +19,12 @@ h3 {
     border-bottom: 1px solid black;
 }
 
-#exercise-table {
+.exercise-table {
     display: flex;
     padding-top: 25px;
 }
 
-#exercise-table > .col {
+.exercise-table > .col {
     flex-grow: 1;
     width: 50%;
     border: 1px solid black;
